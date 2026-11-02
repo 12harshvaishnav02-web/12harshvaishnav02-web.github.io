@@ -1,328 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Harsh Vaishnav — BCA graduate and banking, loan operations, MIS and customer support professional.">
-  <meta name="theme-color" content="#07111f">
-  <title>Harsh Vaishnav | Professional Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080808"><title>Harsh Vaishnav | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="noise"></div>
-  <div class="cursor-glow"></div>
+<video class="background-video"
+         autoplay
+         muted
+         loop
+         playsinline>
+    <source src="assets/sofa-animation.mp4" type="video/mp4">
+  </video>
 
-  <header class="site-header">
-    <div class="container nav">
-      <a class="brand" href="#home" aria-label="Harsh Vaishnav home">
-        <span class="brand-mark">HV</span>
-        <span>HARSH VAISHNAV</span>
-      </a>
-      <button class="menu-btn" aria-label="Open menu">☰</button>
-      <nav class="nav-links">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <a class="nav-cta" href="#contact">Let's Connect <span>↗</span></a>
-    </div>
-  </header>
+  <div class="shade" aria-hidden="true"></div>
 
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-orb orb-one"></div>
-      <div class="hero-orb orb-two"></div>
-      <div class="grid-lines"></div>
+  <!-- Your existing header and website content remain here -->
+<header class="header"><a class="logo" href="#home">HARSH<span>.</span></a><nav><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#internship">Internship</a><a href="#contact">Contact</a></nav></header>
+<main>
+<section class="hero wrap" id="home"><div class="hero-copy">
+<p class="eyebrow">● &nbsp; PERSONAL PORTFOLIO &nbsp; / &nbsp; 2026</p>
+<h1>Building digital<br><span>experiences.</span></h1>
+<p class="intro">I'm <b>Harsh Vaishnav</b> — an IT professional interested in web development, cybersecurity, network intelligence, and practical digital solutions.</p>
+<div class="actions"><a class="btn light" href="#projects">Explore projects ↘</a><a class="btn" href="#experience">View experience ↘</a></div>
+<div class="hero-meta"><div><small>FOCUS</small><p>Technology · Operations · Problem solving</p></div><div><small>LOCATION</small><p>India</p></div></div>
+</div><div class="right-space" aria-hidden="true"></div><a class="scroll" href="#projects">— &nbsp; SCROLL TO EXPLORE</a></section>
 
-      <div class="container hero-layout">
-        <div class="hero-copy reveal">
-          <div class="status"><i></i> OPEN TO PROFESSIONAL OPPORTUNITIES</div>
-          <p class="kicker">BANKING • OPERATIONS • MIS • CUSTOMER SUPPORT</p>
-          <h1>Turning <span>experience</span><br>into reliable results.</h1>
-          <p class="hero-lead">
-            BCA graduate with professional experience in loan operations, customer coordination,
-            field collection, reporting, data management and financial-service support.
-          </p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#experience">Explore My Experience <span>↓</span></a>
-            <a class="button button-ghost" href="mailto:12harshvaishnav02@gmail.com">Email Me <span>↗</span></a>
-          </div>
-          <div class="hero-meta">
-            <span>⌖ Jodhpur, Rajasthan</span>
-            <span>◈ BCA Graduate</span>
-            <span>✦ Banking & Business Support</span>
-          </div>
-        </div>
+<section class="section wrap" id="projects"><div class="section-head"><div><small>01 — SELECTED WORK</small><h2>Projects with <span>purpose.</span></h2></div><p>Each project includes why it was created, its use, capabilities, and technologies in the “Read more” section.</p></div>
+<div class="project-grid">
+<article class="card"><div class="cardtop">PROJECT / 01 <span>⌘</span></div><h3>NEXTRACE</h3><p class="subtitle">IP Intelligence &amp; Safety Platform</p><p class="desc">A web concept for looking up public IP information and presenting network intelligence clearly.</p><div class="tags"><i>HTML</i><i>CSS</i><i>JavaScript</i><i>Leaflet</i></div><details><summary>Read more <b>＋</b></summary><div class="detail"><h4>Why created</h4><p>To explore how public IP information can be organized into a useful network-intelligence experience.</p><h4>Use</h4><p>Demonstrates viewing public IP metadata and approximate location results on a map. IP geolocation is approximate and does not reveal an exact home address.</p><h4>What it can do</h4><ul><li>Accept an IP address for lookup.</li><li>Display available network/provider and approximate geographic information.</li><li>Visualize results on a map; search history was planned as a future feature.</li></ul><h4>Technologies</h4><p>HTML, CSS, JavaScript, Leaflet, and public IP information APIs.</p></div></details></article>
+<article class="card"><div class="cardtop">PROJECT / 02 <span>◈</span></div><h3>AutoFix Hub</h3><p class="subtitle">Vehicle Service Booking System</p><p class="desc">A service-booking project concept to organize vehicle owners, mechanics, and bookings.</p><div class="tags"><i>Python</i><i>Flask</i><i>MySQL</i></div><details><summary>Read more <b>＋</b></summary><div class="detail"><h4>Why created</h4><p>To demonstrate how a digital system can organize vehicle-service requests and related information.</p><h4>Use</h4><p>A basic workflow concept for users, mechanics, service bookings, and SOS-related records.</p><h4>What it can do</h4><ul><li>Represent user and mechanic records.</li><li>Manage service-booking information.</li><li>Store data in a MySQL database.</li><li>Explore an SOS workflow.</li></ul><h4>Technologies</h4><p>Python, Flask, Flask-CORS, and MySQL.</p></div></details></article>
+<article class="card"><div class="cardtop">PROJECT / 03 <span>✳</span></div><h3>Nexora Digital</h3><p class="subtitle">Digital Business Website</p><p class="desc">A responsive static website concept with business-focused sections and clear navigation.</p><div class="tags"><i>HTML</i><i>CSS</i><i>JavaScript</i></div><details><summary>Read more <b>＋</b></summary><div class="detail"><h4>Why created</h4><p>To practice AI-assisted website generation and present a business brand through a structured website.</p><h4>Use</h4><p>A web presence concept for introducing a business, describing services, displaying portfolio content, and offering a contact path.</p><h4>What it can do</h4><ul><li>Present Home, About, Services, Portfolio, and Contact sections.</li><li>Provide responsive navigation.</li><li>Run as a static website through GitHub Pages.</li></ul><h4>Technologies</h4><p>HTML, CSS, JavaScript, GitHub Pages.</p></div></details></article>
+<article class="card"><div class="cardtop">PROJECT / 04 <span>✦</span></div><h3>NGO Website Feature Design</h3><p class="subtitle">Community &amp; Donation Experience</p><p class="desc">A design task focused on making participation and impact features easier to find.</p><div class="tags"><i>UI/UX</i><i>Figma</i><i>Web Design</i></div><details><summary>Read more <b>＋</b></summary><div class="detail"><h4>Why created</h4><p>To explore how an NGO can communicate its mission and help people participate.</p><h4>Use</h4><p>Organizes calls to action and trust-building content into a clear user experience.</p><h4>What it can include</h4><ul><li>Donation section and volunteer form.</li><li>Impact showcase and testimonials.</li><li>Campaign highlights.</li></ul><h4>Tools</h4><p>Figma and visual web-design workflows, based on the task requirements discussed.</p></div></details></article>
+<article class="card"><div class="cardtop">PROJECT / 05 <span>▣</span></div><h3>Personal Portfolio</h3><p class="subtitle">Professional Profile Website</p><p class="desc">A central place to present professional experience, skills, projects, and contact information.</p><div class="tags"><i>HTML</i><i>CSS</i><i>JavaScript</i><i>GitHub Pages</i></div><details><summary>Read more <b>＋</b></summary><div class="detail"><h4>Why created</h4><p>To give recruiters one place to review your background and practical work.</p><h4>Use</h4><p>A digital portfolio that complements your resume and presents career details consistently.</p><h4>What it can do</h4><ul><li>Present profile and career summary.</li><li>Show projects with expandable details.</li><li>Keep jobs and internships separate.</li><li>Provide contact information and a resume link when the correct file is added.</li></ul><h4>Technologies</h4><p>HTML, CSS, JavaScript, GitHub Pages.</p></div></details></article>
+</div><p class="note">Project summaries are based on prior planning. Confirm each feature against the final working project before publishing.</p></section>
 
-        <div class="hero-visual reveal delay">
-          <div class="photo-backdrop"></div>
-          <div class="photo-frame">
-            <img src="assets/profile.jpg" alt="Harsh Vaishnav">
-            <div class="photo-label">
-              <span>PROFILE</span>
-              <strong>HARSH VAISHNAV</strong>
-            </div>
-          </div>
-          <div class="floating-card experience-card">
-            <span class="float-icon">✦</span>
-            <strong>3+ Years</strong>
-            <small>Professional experience</small>
-          </div>
-          <div class="floating-card role-card">
-            <span class="float-icon">↗</span>
-            <strong>Loan Operations</strong>
-            <small>Customer • Data • Reporting</small>
-          </div>
-        </div>
-      </div>
+<section class="section wrap" id="experience"><div class="section-head"><div><small>02 — PROFESSIONAL EXPERIENCE</small><h2>Work, responsibility <span>&amp; growth.</span></h2></div><p>Employment appears here. Dates previously discussed that were not confirmed by official records are marked for verification.</p></div>
+<div class="timeline">
+<article><time>JOINED: JULY 2026 · END: PRESENT</time><div><h3>Tata Capital — Agency Assignment</h3><p class="subtitle">Loan Verification / MIS Reporting</p><p>Preparing loan verification and MIS reports for Rajasthan North, checking documentation, and supporting reporting workflows across loan categories.</p><p class="date-note">Joining date: July 2026 (exact day not provided). Leaving date: Present.</p></div></article>
+<article><time>JOINED: DATE TO CONFIRM · LEFT: DATE TO CONFIRM</time><div><h3>Urban Money</h3><p class="subtitle">Loan Advisor Officer</p><p>Loan-advisory and customer-coordination experience, as discussed for resume preparation.</p><p class="date-note">Duration previously shared: 1 year. Exact joining and leaving dates need confirmation.</p></div></article>
+<article><time>JOINED: DATE TO CONFIRM · LEFT: DATE TO CONFIRM</time><div><h3>R.K. Sharma Agency — Bandhan Bank Assignment</h3><p class="subtitle">Field Collection Executive</p><p>Customer follow-ups, documentation, field collection coordination, and maintaining daily records and reports.</p><p class="date-note">Duration previously shared: 6 months. Exact joining and leaving dates need confirmation.</p></div></article>
+<article><time>JOINED: DATE TO CONFIRM · LEFT: DATE TO CONFIRM</time><div><h3>Suresh Rathi</h3><p class="subtitle">FI Reporting Agent</p><p>Field-investigation reporting support and organizing information for reporting workflows.</p><p class="date-note">Duration previously shared: 10 months. Exact joining and leaving dates need confirmation.</p></div></article>
+<article><time>JOINED: 25 AUG 2022 · LEFT: 24 AUG 2023</time><div><h3>Data Entry</h3><p class="subtitle">Data Entry Work</p><p>Previously listed in resume discussions; the joining date and full employer details are not available in the currently confirmed information.</p><p class="date-note">Joining and leaving dates shown from the previously discussed one-year period; confirm against your records.</p></div></article>
+</div></section>
 
-      <div class="scroll-cue"><span></span> SCROLL TO EXPLORE</div>
-    </section>
+<section class="section wrap" id="internship"><div class="section-head"><div><small>03 — INTERNSHIP</small><h2>Learning through <span>practice.</span></h2></div><p>Internship experience is intentionally separate from professional employment.</p></div>
+<article class="internship"><div class="intern-head"><div><small>COMPLETED</small><h3>InAmigos Foundation</h3><p class="subtitle">AI Web Development Intern</p></div><span class="chip">COMPLETED</span></div><div class="dates"><div><small>JOINED</small><strong>09 October 2026</strong></div><div><small>COMPLETED</small><strong>18 October 2026</strong></div></div><p>Short-term internship experience related to AI-assisted web development. Dates are kept as previously shared.</p></article></section>
 
-    <section class="marquee">
-      <div class="marquee-track">
-        <span>LOAN OPERATIONS</span><b>✦</b><span>MIS & REPORTING</span><b>✦</b>
-        <span>CUSTOMER HANDLING</span><b>✦</b><span>DATA MANAGEMENT</span><b>✦</b>
-        <span>BANKING SUPPORT</span><b>✦</b><span>LOAN OPERATIONS</span><b>✦</b>
-      </div>
-    </section>
+<section class="section wrap" id="education"><div class="section-head"><div><small>04 — EDUCATION</small><h2>Education &amp; <span>foundation.</span></h2></div></div><article class="education"><div><small>BACHELOR'S DEGREE</small><h3>Bachelor of Computer Applications (BCA)</h3></div><p>Completed in 2024</p></article></section>
 
-    <section class="section" id="about">
-      <div class="container">
-        <div class="section-intro reveal">
-          <div>
-            <span class="section-number">01 / PROFILE</span>
-            <h2>A dependable professional with a <em>hands-on</em> background.</h2>
-          </div>
-          <p>
-            I bring practical experience from banking and financial-service environments together
-            with a BCA foundation in technology and data.
-          </p>
-        </div>
-
-        <div class="about-grid">
-          <div class="about-main reveal">
-            <p class="large-copy">
-              I am a BCA graduate with 3+ years of professional experience across data entry,
-              reporting, field collection, loan advisory and customer coordination, plus 2 years
-              of independent loan referral experience.
-            </p>
-            <p>
-              My work has involved customer handling, documentation, data management, reporting,
-              follow-ups and coordination with banking and financial-service teams. I am seeking
-              opportunities in Banking Operations, Loan Operations, MIS/Back Office, Customer
-              Operations or Business Support roles.
-            </p>
-          </div>
-          <div class="about-facts reveal">
-            <div><span>LOCATION</span><strong>Jodhpur, Rajasthan</strong></div>
-            <div><span>EDUCATION</span><strong>Bachelor of Computer Applications</strong></div>
-            <div><span>FOCUS</span><strong>Banking & Business Support</strong></div>
-            <div><span>LANGUAGES</span><strong>Hindi · English · Regional Language</strong></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section dark-section" id="skills">
-      <div class="container">
-        <div class="section-intro reveal">
-          <div>
-            <span class="section-number">02 / CAPABILITIES</span>
-            <h2>Skills built around <em>real work.</em></h2>
-          </div>
-          <p>Core capabilities from professional experience and technical education.</p>
-        </div>
-
-        <div class="skills-grid">
-          <article class="skill reveal"><span>01</span><h3>Banking & Loan Operations</h3><p>Loan requirements, documentation, application support and process coordination.</p></article>
-          <article class="skill reveal"><span>02</span><h3>Customer Handling</h3><p>Customer communication, follow-ups, relationship management and coordination.</p></article>
-          <article class="skill reveal"><span>03</span><h3>MIS & Reporting</h3><p>Daily reporting, record maintenance, documentation and information updates.</p></article>
-          <article class="skill reveal"><span>04</span><h3>Data Management</h3><p>Data entry, verification, updating and accurate digital record handling.</p></article>
-          <article class="skill reveal"><span>05</span><h3>MS Office</h3><p>MS Excel, Word and PowerPoint for office, documentation and reporting work.</p></article>
-          <article class="skill reveal"><span>06</span><h3>Web & Database Basics</h3><p>HTML/CSS, basic JavaScript, SQL/database fundamentals and basic Python.</p></article>
-        </div>
-
-        <div class="tool-stack reveal">
-          <div class="tool-title">TECH STACK / WORK TOOLS</div>
-          <div class="tool-list">
-            <span>MS Excel</span><span>MS Word</span><span>PowerPoint</span><span>Data Entry</span>
-            <span>Data Management</span><span>Reporting</span><span>Documentation</span><span>HTML & CSS</span>
-            <span>JavaScript</span><span>SQL & Database</span><span>Python (Basic)</span><span>Web Development</span>
-            <span>Networking Basics</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="experience">
-      <div class="container">
-        <div class="section-intro reveal">
-          <div>
-            <span class="section-number">03 / EXPERIENCE</span>
-            <h2>A career shaped by <em>responsibility.</em></h2>
-          </div>
-          <p>Experience across loan advisory, field collection, reporting and data entry.</p>
-        </div>
-
-        <div class="experience-list">
-          <article class="experience reveal">
-            <div class="experience-top">
-              <div class="exp-index">01</div>
-              <div class="exp-duration">2 YEARS</div>
-            </div>
-            <div class="exp-body">
-              <h3>Independent Loan Referral Consultant</h3>
-              <h4>Self-Employed</h4>
-              <ul>
-                <li>Generated and referred prospective customers for loan products through an independent referral network.</li>
-                <li>Coordinated with customers, bank representatives and financial-service agents during the loan process.</li>
-                <li>Assisted with documentation, application submission, status follow-up and coordination through disbursement.</li>
-                <li>Developed and maintained customer and channel-partner relationships.</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="experience reveal">
-            <div class="experience-top"><div class="exp-index">02</div><div class="exp-duration">10 MONTHS</div></div>
-            <div class="exp-body">
-              <h3>Loan Advisor Officer</h3>
-              <h4>Urban Money</h4>
-              <ul>
-                <li>Assisted customers with loan requirements, documentation and application follow-ups.</li>
-                <li>Handled customer information and supported loan-related processes and coordination.</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="experience reveal">
-            <div class="experience-top"><div class="exp-index">03</div><div class="exp-duration">1 YEAR</div></div>
-            <div class="exp-body">
-              <h3>Field Collection Executive</h3>
-              <h4>Bandhan Bank</h4>
-              <ul>
-                <li>Handled field collection activities, customer follow-ups and documentation.</li>
-                <li>Maintained customer, collection and daily field records with timely reporting.</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="experience reveal">
-            <div class="experience-top"><div class="exp-index">04</div><div class="exp-duration">6 MONTHS</div></div>
-            <div class="exp-body">
-              <h3>FI Reporting Agent</h3>
-              <h4>Suresh Rathi</h4>
-              <ul>
-                <li>Prepared and maintained daily field reports and data records.</li>
-                <li>Updated information accurately and coordinated reporting requirements.</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="experience reveal">
-            <div class="experience-top"><div class="exp-index">05</div><div class="exp-duration">1 YEAR</div></div>
-            <div class="exp-body">
-              <h3>Data Entry Executive</h3>
-              <h4>ACU MDX Laboratory and Research Center</h4>
-              <ul>
-                <li>Entered, verified, updated and maintained organizational data and digital records.</li>
-                <li>Prepared reports and maintained accurate documentation using computer applications.</li>
-              </ul>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section dark-section" id="projects">
-      <div class="container">
-        <div class="section-intro reveal">
-          <div>
-            <span class="section-number">04 / PROJECTS</span>
-            <h2>Technology that supports <em>business.</em></h2>
-          </div>
-          <p>Academic projects combining web development, data handling and backend concepts.</p>
-        </div>
-
-        <div class="project-grid">
-          <article class="project featured reveal">
-            <span class="project-num">01</span>
-            <div>
-              <span class="project-type">WEB DEVELOPMENT</span>
-              <h3>E-Commerce Website</h3>
-              <p>Developed a basic front-end e-commerce website using HTML, CSS and basic JavaScript.</p>
-              <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-            </div>
-          </article>
-
-          <article class="project reveal">
-            <span class="project-num">02</span>
-            <div>
-              <span class="project-type">ACADEMIC PROJECT</span>
-              <h3>Money Transfer with OTP Service</h3>
-              <p>Academic project covering money-transfer functionality, backend logic, data handling and OTP-based verification.</p>
-              <div class="project-tags"><span>Backend Logic</span><span>Data</span><span>OTP</span></div>
-            </div>
-          </article>
-
-          <article class="project reveal">
-            <span class="project-num">03</span>
-            <div>
-              <span class="project-type">EDUCATION</span>
-              <h3>Bachelor of Computer Applications</h3>
-              <p>Lachoo Memorial College</p>
-              <div class="project-tags"><span>BCA</span><span>Graduate</span></div>
-            </div>
-          </article>
-
-          <article class="project reveal">
-            <span class="project-num">04</span>
-            <div>
-              <span class="project-type">CERTIFICATIONS</span>
-              <h3>Professional Certifications</h3>
-              <p>RSCIT and Web Cube Certification.</p>
-              <div class="project-tags"><span>RSCIT</span><span>Web Cube</span></div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="cta-section" id="contact">
-      <div class="container cta">
-        <div class="cta-copy reveal">
-          <span class="section-number">05 / CONTACT</span>
-          <h2>Ready for the<br><em>next opportunity.</em></h2>
-          <p>For roles in Banking Operations, Loan Operations, MIS/Back Office, Customer Operations or Business Support.</p>
-        </div>
-        <div class="contact-panel reveal">
-          <a href="mailto:12harshvaishnav02@gmail.com" class="contact-row">
-            <span>EMAIL</span><strong>12harshvaishnav02@gmail.com</strong><b>↗</b>
-          </a>
-          <a href="tel:+919509764928" class="contact-row">
-            <span>PHONE</span><strong>+91 9509764928</strong><b>↗</b>
-          </a>
-          <div class="contact-row">
-            <span>LOCATION</span><strong>Jodhpur, Rajasthan</strong><b>⌖</b>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container footer-inner">
-      <span>HARSH VAISHNAV</span>
-      <span>Professional Portfolio · 2026</span>
-      <a href="#home">BACK TO TOP ↑</a>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+<section class="section wrap contact" id="contact"><small>05 — CONTACT</small><div class="contact-row"><h2>Let's make something <span>useful.</span></h2><div><p>For professional opportunities, project discussions, or collaboration.</p><a class="btn light" href="mailto:12harshvaishnav02@gmail.com">Email me ↗</a></div></div><div class="contact-bottom"><span>12harshvaishnav02@gmail.com</span><span>India</span></div></section>
+</main>
+<footer class="footer wrap"><a class="logo" href="#home">HARSH<span>.</span></a><span>Minimal by design.</span><a href="#home">BACK TO TOP ↑</a></footer>
+<script src="script.js"></script>
+</body></html>
